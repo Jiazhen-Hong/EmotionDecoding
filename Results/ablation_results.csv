@@ -1,0 +1,127 @@
+pipeline,session,acc
+"1. Baseline (raw, full BP)",1,0.625
+"1. Baseline (raw, full BP)",3,0.5833333333333334
+"1. Baseline (raw, full BP)",4,0.5833333333333334
+"1. Baseline (raw, full BP)",5,0.6666666666666666
+"1. Baseline (raw, full BP)",6,0.375
+"1. Baseline (raw, full BP)",7,0.375
+"1. Baseline (raw, full BP)",8,0.25
+"1. Baseline (raw, full BP)",9,0.2916666666666667
+"1. Baseline (raw, full BP)",10,0.4583333333333333
+"1. Baseline (raw, full BP)",11,0.3333333333333333
+"1. Baseline (raw, full BP)",12,0.4583333333333333
+"1. Baseline (raw, full BP)",13,0.3333333333333333
+"1. Baseline (raw, full BP)",14,0.4583333333333333
+"1. Baseline (raw, full BP)",15,0.5416666666666666
+2. + Cleaning (drop ch30),1,0.5833333333333334
+2. + Cleaning (drop ch30),3,0.6666666666666666
+2. + Cleaning (drop ch30),4,0.5833333333333334
+2. + Cleaning (drop ch30),5,0.6666666666666666
+2. + Cleaning (drop ch30),6,0.4166666666666667
+2. + Cleaning (drop ch30),7,0.375
+2. + Cleaning (drop ch30),8,0.25
+2. + Cleaning (drop ch30),9,0.3333333333333333
+2. + Cleaning (drop ch30),10,0.5
+2. + Cleaning (drop ch30),11,0.375
+2. + Cleaning (drop ch30),12,0.5833333333333334
+2. + Cleaning (drop ch30),13,0.4583333333333333
+2. + Cleaning (drop ch30),14,0.4166666666666667
+2. + Cleaning (drop ch30),15,0.5416666666666666
+3. + Stim crop + head/tail trim,1,0.7083333333333334
+3. + Stim crop + head/tail trim,3,0.5833333333333334
+3. + Stim crop + head/tail trim,4,0.5833333333333334
+3. + Stim crop + head/tail trim,5,0.6666666666666666
+3. + Stim crop + head/tail trim,6,0.4166666666666667
+3. + Stim crop + head/tail trim,7,0.4166666666666667
+3. + Stim crop + head/tail trim,8,0.4166666666666667
+3. + Stim crop + head/tail trim,9,0.3333333333333333
+3. + Stim crop + head/tail trim,10,0.5416666666666666
+3. + Stim crop + head/tail trim,11,0.375
+3. + Stim crop + head/tail trim,12,0.5833333333333334
+3. + Stim crop + head/tail trim,13,0.5
+3. + Stim crop + head/tail trim,14,0.4166666666666667
+3. + Stim crop + head/tail trim,15,0.5
+4. + Per-session z + CORAL,1,0.625
+4. + Per-session z + CORAL,3,0.8333333333333334
+4. + Per-session z + CORAL,4,0.5833333333333334
+4. + Per-session z + CORAL,5,0.6666666666666666
+4. + Per-session z + CORAL,6,0.5416666666666666
+4. + Per-session z + CORAL,7,0.4166666666666667
+4. + Per-session z + CORAL,8,0.5
+4. + Per-session z + CORAL,9,0.5416666666666666
+4. + Per-session z + CORAL,10,0.625
+4. + Per-session z + CORAL,11,0.4166666666666667
+4. + Per-session z + CORAL,12,0.75
+4. + Per-session z + CORAL,13,0.5
+4. + Per-session z + CORAL,14,0.5
+4. + Per-session z + CORAL,15,0.6666666666666666
+5. + Windowing + DE + Hjorth,1,0.7916666666666666
+5. + Windowing + DE + Hjorth,3,0.7083333333333334
+5. + Windowing + DE + Hjorth,4,0.7083333333333334
+5. + Windowing + DE + Hjorth,5,0.75
+5. + Windowing + DE + Hjorth,6,0.6666666666666666
+5. + Windowing + DE + Hjorth,7,0.625
+5. + Windowing + DE + Hjorth,8,0.625
+5. + Windowing + DE + Hjorth,9,0.5
+5. + Windowing + DE + Hjorth,10,0.6666666666666666
+5. + Windowing + DE + Hjorth,11,0.4166666666666667
+5. + Windowing + DE + Hjorth,12,0.75
+5. + Windowing + DE + Hjorth,13,0.4583333333333333
+5. + Windowing + DE + Hjorth,14,0.625
+5. + Windowing + DE + Hjorth,15,0.625
+"6. + Riemannian ens. (soft, w=0.9)",1,0.7916666666666666
+"6. + Riemannian ens. (soft, w=0.9)",3,0.75
+"6. + Riemannian ens. (soft, w=0.9)",4,0.7083333333333334
+"6. + Riemannian ens. (soft, w=0.9)",5,0.75
+"6. + Riemannian ens. (soft, w=0.9)",6,0.7083333333333334
+"6. + Riemannian ens. (soft, w=0.9)",7,0.6666666666666666
+"6. + Riemannian ens. (soft, w=0.9)",8,0.6666666666666666
+"6. + Riemannian ens. (soft, w=0.9)",9,0.4166666666666667
+"6. + Riemannian ens. (soft, w=0.9)",10,0.6666666666666666
+"6. + Riemannian ens. (soft, w=0.9)",11,0.4166666666666667
+"6. + Riemannian ens. (soft, w=0.9)",12,0.75
+"6. + Riemannian ens. (soft, w=0.9)",13,0.4583333333333333
+"6. + Riemannian ens. (soft, w=0.9)",14,0.625
+"6. + Riemannian ens. (soft, w=0.9)",15,0.6666666666666666
+"7. + Riemannian ens. (hard, w=0.9)",1,0.75
+"7. + Riemannian ens. (hard, w=0.9)",3,0.75
+"7. + Riemannian ens. (hard, w=0.9)",4,0.75
+"7. + Riemannian ens. (hard, w=0.9)",5,0.75
+"7. + Riemannian ens. (hard, w=0.9)",6,0.6666666666666666
+"7. + Riemannian ens. (hard, w=0.9)",7,0.625
+"7. + Riemannian ens. (hard, w=0.9)",8,0.625
+"7. + Riemannian ens. (hard, w=0.9)",9,0.375
+"7. + Riemannian ens. (hard, w=0.9)",10,0.5833333333333334
+"7. + Riemannian ens. (hard, w=0.9)",11,0.4583333333333333
+"7. + Riemannian ens. (hard, w=0.9)",12,0.7916666666666666
+"7. + Riemannian ens. (hard, w=0.9)",13,0.375
+"7. + Riemannian ens. (hard, w=0.9)",14,0.6666666666666666
+"7. + Riemannian ens. (hard, w=0.9)",15,0.5833333333333334
+8. + Best soft ensemble (w=0.5),1,0.7916666666666666
+8. + Best soft ensemble (w=0.5),3,0.7916666666666666
+8. + Best soft ensemble (w=0.5),4,0.7083333333333334
+8. + Best soft ensemble (w=0.5),5,0.7916666666666666
+8. + Best soft ensemble (w=0.5),6,0.6666666666666666
+8. + Best soft ensemble (w=0.5),7,0.625
+8. + Best soft ensemble (w=0.5),8,0.6666666666666666
+8. + Best soft ensemble (w=0.5),9,0.4166666666666667
+8. + Best soft ensemble (w=0.5),10,0.625
+8. + Best soft ensemble (w=0.5),11,0.4166666666666667
+8. + Best soft ensemble (w=0.5),12,0.7916666666666666
+8. + Best soft ensemble (w=0.5),13,0.5
+8. + Best soft ensemble (w=0.5),14,0.6666666666666666
+8. + Best soft ensemble (w=0.5),15,0.7083333333333334
+9. + Best hard assignment (w=0.5),1,0.75
+9. + Best hard assignment (w=0.5),3,0.875
+9. + Best hard assignment (w=0.5),4,0.6666666666666666
+9. + Best hard assignment (w=0.5),5,0.75
+9. + Best hard assignment (w=0.5),6,0.6666666666666666
+9. + Best hard assignment (w=0.5),7,0.5833333333333334
+9. + Best hard assignment (w=0.5),8,0.625
+9. + Best hard assignment (w=0.5),9,0.4166666666666667
+9. + Best hard assignment (w=0.5),10,0.5833333333333334
+9. + Best hard assignment (w=0.5),11,0.4583333333333333
+9. + Best hard assignment (w=0.5),12,0.8333333333333334
+9. + Best hard assignment (w=0.5),13,0.5
+9. + Best hard assignment (w=0.5),14,0.6666666666666666
+9. + Best hard assignment (w=0.5),15,0.75
