@@ -1,0 +1,6 @@
+name: emodetect
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+prefix: /home/h128jj/miniconda3/envs/emodetect
