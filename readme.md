@@ -1,7 +1,4 @@
 # Decoding Video-Elicited Emotions from EEG
-
-Submission for the **Alljoined Machine Learning Researcher take-home challenge** (April 2026).
-
 **Author:** Jiazhen Hong
 ([Website](https://jiazhen-hong.github.io/jiazhenhong/) · [LinkedIn](http://www.linkedin.com/in/jiazhen-hong66) · jh1590@rutgers.edu)
 
